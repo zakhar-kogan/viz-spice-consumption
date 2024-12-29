@@ -1,0 +1,12 @@
+[project]
+name = "viz-spice-consumption"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "getdaft>=0.4.1",
+    "modin[ray]>=0.32.0",
+    "pycountry>=24.6.1",
+    "seaborn>=0.13.2",
+]
